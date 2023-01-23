@@ -27,12 +27,47 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.lists{
+  display: flex;
+  list-style: none;
+}
+table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+thead tr{
+  background-color: rgb(39, 195, 143);
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.pageItem{
+  margin: 4px;
+}
+th,td{
+  padding: 12px 15px;
+}
+th{
+  cursor: pointer;
+}
+tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+.search{
+  margin-top: 50px;
+  width:50%;
+  height: 30px;
+}
+
